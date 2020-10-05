@@ -1,0 +1,17 @@
+version: "2"
+fields:
+  - title: Username
+    id: username
+    description: User to protect access to the owncloud server
+    target:
+      type: environment
+      name: OWNCLOUD_ADMIN_USERNAME
+    required: true
+  - title: Password
+    id: password
+    description: Password to protect access to the owncloud server
+    target:
+      type: environment
+      name: OWNCLOUD_ADMIN_PASSWORD
+    required: true
+    secret: true

@@ -1,0 +1,31 @@
+{
+  "name": "owncloud.dappnode.eth",
+  "version": "0.1.0",
+  "shortDescription": "The self-hosted productivity platform that keeps you in control",
+  "description": "Fully control where your data is stored at all times. [Desktop Apps](https://owncloud.com/desktop-app/)",
+  "type": "service",
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+  ],  
+  "categories": [
+    "Storage"
+  ],
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "mainService":"owncloud",
+  "minimumDappnodeVersion": "0.2.39",
+  "links": {
+    "homepage": "http://owncloud.dappnode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-owncloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-owncloud/issues"
+  },
+  "license": "GPL-3.0"
+}
