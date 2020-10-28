@@ -1,13 +1,13 @@
 {
   "name": "owncloud.dappnode.eth",
   "version": "0.1.0",
-  "shortDescription": "The self-hosted productivity platform that keeps you in control",
-  "description": "Fully control where your data is stored at all times. [Desktop Apps](https://owncloud.com/desktop-app/)",
+  "shortDescription": "[OwnCloud](https://owncloud.com/desktop-app/) is a suite of client-server FOSS for creating file hosting services and using them",
+  "description": "Collaborate easier, safely. An open-source file sync, share and content collaboration software that lets teams work on data easily.",
   "type": "service",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
-  ],  
+  ],
   "categories": [
     "Storage"
   ],
