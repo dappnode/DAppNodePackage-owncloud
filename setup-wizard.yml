@@ -4,6 +4,7 @@ fields:
     id: username
     description: User to protect access to the owncloud server
     target:
+      service: owncloud
       type: environment
       name: OWNCLOUD_ADMIN_USERNAME
     required: true
@@ -11,6 +12,7 @@ fields:
     id: password
     description: Password to protect access to the owncloud server
     target:
+      service: owncloud
       type: environment
       name: OWNCLOUD_ADMIN_PASSWORD
     required: true
