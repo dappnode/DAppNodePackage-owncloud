@@ -21,7 +21,8 @@
   "mainService":"owncloud",
   "minimumDappnodeVersion": "0.2.39",
   "links": {
-    "homepage": "http://owncloud.dappnode"
+    "Homepage": "https://owncloud.com/",
+    "Ui": "http://owncloud.dappnode"
   },
   "repository": {
     "type": "git",
