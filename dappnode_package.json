@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "shortDescription": "OwnCloud is a suite of client-server FOSS for creating file hosting services and using them.",
   "description": "Collaborate easier, safely. [OwnCloud](https://owncloud.com/), an open-source file sync, share and content collaboration software that lets teams work on data easily.",
-  "type": "service", 
+  "type": "service",
+  "upstreamVersion": "10.5",
+  "upstreamRepo": "owncloud/core",
+  "upstreamArg": "UPSTREAM_VERSION",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
