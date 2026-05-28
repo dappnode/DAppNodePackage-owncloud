@@ -1,6 +1,10 @@
 version: '3.4'
 services:
   owncloud:
+  build:
+    context: .
+    args:
+      UPSTREAM_VERSION: "10.5"
     image: 'owncloud/server:10.5'
     restart: always
     depends_on:
